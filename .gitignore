@@ -1,0 +1,35 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Local data files
+trading_pairs.json
+*.json
+
+# Logs
+*.log
+logs/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Keys and sensitive information
+*.pem
+*.key
